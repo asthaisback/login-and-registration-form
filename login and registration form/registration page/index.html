@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Placify-Student-Registration</title>
+</head>
+
+<body>
+    <div class="register">
+        <img src="./assets/img/login-bg2.jpg" alt="register image" class="register__img">
+
+        <form action="" class="register__form">
+            <h1 class="register__title">Registration Form</h1>
+            <p class="register__register">
+                Have an account?&nbsp; <a href="../final login page/index.html">Login</a>
+            </p>
+            <div class="register__content">
+                <div class="register__box">
+                    <!-- <i class="ri-user-3-line login__icon"></i> -->
+                    <div class="register__box-input">
+                        <input type="text" required class="register__input" id="name" placeholder="Name">
+                        <label for="name" class="register__label"></label>
+                    </div>
+                </div>
+                <div class="register__box">
+                    <!-- <i class="fa fa-envelope"></i> -->
+
+                    <div class="register__box-input">
+                        <input type="email" required class="register__input" id="register-email" placeholder="Email">
+                        <label for="register-email" class="register__label"></label>
+                    </div>
+                </div>
+
+                <div class="register__box">
+                    <i class="ri-lock-2-line register__icon"></i>
+
+                    <div class="register__box-input">
+                        <input type="password" required class="register__input" id="register-pass"
+                            placeholder="Password">
+                        <label for="register-pass" class="register__label"></label>
+                        <i class="ri-eye-off-line register__eye" id="register-eye"></i>
+                    </div>
+                </div>
+                <div class="register__box">
+                    <!-- <i class="ri-lock-2-line register__icon"></i> -->
+                    <div class="register__box-input">
+                        <input type="password" required class="register__input" id="register-pass"
+                            placeholder="Confirm Password">
+                        <label for="register-pass" class="register__label"></label>
+                    </div>
+                </div>
+                <div class="register__box">
+                    <div class="register__box-input">
+                        <input type="text" required class="register__input" placeholder="College Name"
+                            id="register-college">
+                        <label for="register-college" class="register__label"></label>
+                    </div>
+                </div>
+                <div class="register__box">
+                    <div class="register__box-input">
+                        <input type="tel" required class="register__input" placeholder="Phone Number"
+                            id="register-phone">
+                        <label for="register-phone" class="register__label"></label>
+                    </div>
+                </div>
+                <div class="register__box">
+                    <div class="register__box-input">
+                        <input type="text" required class="register__input" placeholder="Course" id="register-course">
+                        <label for="register-course" class="register__label"></label>
+                    </div>
+                </div>
+                <div class="register__box">
+                    <div class="register__box-input">
+                        <input type="text" required class="register__input" placeholder="Branch" id="register-branch">
+                        <label for="register-branch" class="register__label"></label>
+                    </div>
+                </div>
+                <div class="register__box">
+                    <div class="register__box-input">
+                        <input style="margin-right: 17rem;" type="number" required class="register__input"
+                            placeholder="Year" id="register-year" min="1" max="5">
+                        <label for="register-year" class="register__label"></label>
+                    </div>
+                </div>
+                <div class="register__box">
+                    <div class="register__box-input">
+                        <input type="text" required class="register__input" placeholder="Skills" id="register-skill">
+                        <label for="register-skill" class="register__label"></label>
+                    </div>
+                </div>
+                <div class="register__box">
+                    <div class="register__box-input">
+                        <input type="text" required class="register__input" placeholder="College Name"
+                            id="register-college">
+                        <label for="register-college" class="register__label"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="register__gender">
+                <div class="register__gender-input">
+                    <input type="radio" class="radio-button" name="gender">
+                    <label style="margin-right: 0.7rem;">Male</label>
+                    <input type="radio" class="radio-button" name="gender">
+                    <label style="margin-right: 0.7rem;">Female</label>
+                    <input type="radio" class="radio-button" name="gender">
+                    <label>Prefare Not to Say</label>
+                </div>
+            </div>
+
+            <div class="register__check">
+                <div class="register__check-group">
+                    <input type="checkbox" class="register__check-input" id="register-check" required>
+                    <label for="register-check" class="register__check-label">I accept
+                        the term and
+                        conditions</label>
+                </div>
+            </div>
+
+            <button type="submit" class="register__button">Register</button>
+        </form>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
